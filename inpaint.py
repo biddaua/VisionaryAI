@@ -18,7 +18,7 @@ workspace = os.path.dirname(os.path.abspath(__file__))
 print("workspace:", workspace, flush=True)
 sys.path.append(workspace)
 from ldm.models.diffusion.plms import PLMSSampler
-from ldm.util import instantiate_from_config
+from ldm.util import  instantiate_from_config
 
 
 def make_batch_sd(
